@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #4158d0, #c450c0, #ffcc70 70%);
+}
+
+main {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  min-width: 600px;
+  min-height: 600px;
+  background-color: azure;
+  border-radius: 600px;
+  border: 15px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.number {
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.number-1 {
+  transform: rotate(30deg);
+}
+
+.number-2 {
+  transform: rotate(60deg);
+}
+
+.number-3 {
+  transform: rotate(90deg);
+}
+
+.number-4 {
+  transform: rotate(120deg);
+}
+
+.number-5 {
+  transform: rotate(150deg);
+}
+
+.number-6 {
+  transform: rotate(180deg);
+}
+
+.number-7 {
+  transform: rotate(210deg);
+}
+
+.number-8 {
+  transform: rotate(240deg);
+}
+
+.number-9 {
+  transform: rotate(270deg);
+}
+
+.number-10 {
+  transform: rotate(300deg);
+}
+
+.number-11 {
+  transform: rotate(330deg);
+}
+
+.hand-seconds {
+  width: 5px;
+  height: 240px;
+  background-color: #dd6050;
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(0, -50%) rotate(30deg);
+  transform-origin: bottom center;
+}
+
+.hand-minutes {
+  width: 8px;
+  height: 190px;
+  background-color: #110a10;
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  transform-origin: bottom center;
+}
+
+.hand-hours {
+  width: 10px;
+  height: 120px;
+  background-color: #1b1b18;
+  position: absolute;
+  border-radius: 10px;
+  transform: translate(0, -50%) rotate(180deg);
+  transform-origin: bottom center;
+}
+
+.center {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  background-color: rgb(5, 5, 5);
+}
+
